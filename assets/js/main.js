@@ -30,31 +30,6 @@ modalClose.forEach((mc) =>{
 	})
 })
 
-/*=============== SWIPER TESTIMONIAL ===============*/
-let swiperTestimonial = new Swiper(".testimonial__container", {
-    spaceBetween: 24,
-    loop: true,
-    grabCursor: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    breakpoints: {
-      576: {
-        slidesPerView: 1,
-        spaceBetween: 48
-      },
-      768: {
-        slidesPerView: 1,
-        spaceBetween: 48,
-      },
-      991: {
-        slidesPerView: 1,
-        spaceBetween: 48,
-      },
-    },
-});
-
 /*=============== QUALIFICATION TABS ===============*/
 const tabs = document.querySelectorAll('[data-target]'),
         tabContents = document.querySelectorAll('[data-content]')

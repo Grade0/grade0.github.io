@@ -171,7 +171,6 @@ body.light-theme{
 
 .light-theme .skills__content,
 .light-theme .services__card,
-.light-theme .work__card,
 .light-theme .testimonial__card,
 .light-theme .contact__card {
   box-shadow: 0 2px 16px hsla(var(--second-hue), 48%, 8%, .1);
@@ -658,69 +657,6 @@ body.light-theme{
   visibility: visible;
 }
 
-/*=============== WORK ===============*/
-.work__container{
-  padding-top: 1rem;
-  display: none;
-}
-
-.work__filters{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: .75rem;
-  margin-bottom: 2rem;
-}
-
-.work__item{
-  cursor: pointer;
-  color: var(--title-color);
-  padding: .25rem .75rem;
-  font-weight: var(--font-medium);
-  border-radius: .5rem;
-}
-
-.work__card{
-  background-color: var(--container-color);
-  padding: 1rem;
-  border-radius: 1rem;
-}
-
-.work__img{
-  border-radius: 1rem;
-  margin-bottom: .75rem;
-}
-
-.work__title{
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-  margin-bottom: .25rem;
-}
-
-.work__button{
-  width: max-content;
-  color: var(--first-color);
-  font-size: var(--small-font-size);
-  display: flex;
-  align-items: center;
-  column-gap: .25rem;
-}
-
-.work__button:hover .work__icon{
-  transform: translateX(.25rem);
-}
-
-.work__icon{
-  font-size: 1rem;
-  transition: .4s;
-}
-
-/* Active item work*/
-.active-work{
-  background-color: var(--first-color);
-  color: var(--body-color);
-}
-
 /*=============== TESTIMONIAL ===============*/
 .testimonial__card{
   background-color: var(--container-color);
@@ -1078,13 +1014,6 @@ body.light-theme{
     justify-content: center;
   }
 
-  .work__item{
-    font-size: var(--small-font-size);
-  }
-  .work__filters{
-    column-gap: .25rem;
-  }
-
   .qualification__data{
     gap: .5rem;
   }
@@ -1146,13 +1075,6 @@ body.light-theme{
     padding: 0 3.5rem ;
   }
 
-  .work__container{
-    justify-content: center;
-  }
-  .work__img{ 
-    width: 295px;
-  }
-
   .contact__info{
     grid-template-columns: 300px;
     justify-content: center;
@@ -1173,6 +1095,11 @@ body.light-theme{
     width: 450px;
     margin: 0 auto;ß
    }
+
+   .testimonial__container{
+    width: 550px;
+    margin: 0 auto;
+   }
 }
 
 
@@ -1183,10 +1110,6 @@ body.light-theme{
   }
   .home__img{
     width: 480px;
-  }
-
-  .work__container{
-    grid-template-columns: repeat(2, max-content);
   }
 
   .contact__container{
@@ -1289,18 +1212,6 @@ body.light-theme{
     padding: 5rem 2rem 1.5rem;
    }
 
-   .work__container{
-    gap: 3rem;
-   }
-   .work__card{
-    padding: 1.25rem;
-   }
-   .work__img{
-    margin-bottom: 1rem;
-   }
-   .work__title{
-    margin-bottom: .5rem;
-   }
    .testimonial__container{
     width: 750px;
    }
