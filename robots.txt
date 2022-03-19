@@ -1,1 +1,2 @@
-assets/sitemap/sitemap.xml
+User-agent: *
+Sitemap: assets/sitemap/sitemap.xml
