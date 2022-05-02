@@ -764,6 +764,10 @@ body.light-theme{
   color: var(--first-color);
 }
 
+.work__container {
+  margin-bottom: 5rem;
+}
+
 /*=============== LANGUAGES ===============*/
 .languages__list{
   row-gap: 1.5rem;
