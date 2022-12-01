@@ -573,6 +573,12 @@ body.light-theme{
   cursor: pointer;
 }
 
+.under__link{
+  color: var(--text-color);
+  border-bottom: 1px dotted hsl(var(--second-hue), 4%, 55%);
+  text-decoration: none;
+}
+
 .services__link:hover .services__icon{
   transform: translate(.25rem);
 }
